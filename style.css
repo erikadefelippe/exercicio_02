@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&display=swap');
+
+/** paleta principal 173753-6daedb-2892d7-1b4353-1d70a2**/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ body {
+    background-color: #f1f1f1;
+ }
+
+ .cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0 5px 0;
+    background-color: #173753;
+ }
+
+ .menu-cabecalho{
+    display: flex;
+    gap: 32px;
+ }
+
+ .itens{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+ }
+
+ .itens:hover{
+    color: #F49E4C;
+    transition-duration: 1.5s;
+
+ }
+
+ .secao-01{
+    height: 450px;
+    background-image: url(bg_01.png);
+    background-position: right center;
+ }
+
+ .conteudo-01{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0 0 75px
+ }
+
+.texto{
+display:flex ;
+flex-direction: column;
+row-gap: 18px;
+margin-top: 45px;
+}
+
+.titulo{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.subtitulo{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.complemento{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.botao-01{
+    background-color: #7D5BA6;
+    height: 40px;
+    width: 180px;
+    border: none;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.botao-01:hover{
+    background-color: #F49E4C;
+    transition-duration: 1s;
+}
+
+.conteudo-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 18px;
+}
+
+.subtitulo-02{
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.titulo-02 {
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    font-weight: 700;
+    font-size: 66px;
+}
+
+.complemento-02{
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    width: 600px;
+}
+.line{
+    display: flex;
+    height: 5px;
+    width: 80px;
+    background-color: #F49E4C;
+}
+.conteudo-03{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 128px;
+    margin-top: 55px;
+}
+
+.lateral-03{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    padding: 5px 20px 50px 35px;
+    background-color: #c5c5c5;
+    width: 338px;
+    height: 501px;
+}
+
+.complemento-03{
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    
+}
+.titulo-03{
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 62px;
+}
+.imagem-02{
+    width: 700px;
+    height: 556px;
+}
+.secao-03{
+    margin-top: 55px;
+    height: 430px;
+    background-image: url(bg_02.png);
+    background-position: right center;
+}
+.conteudo-04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 18px;
+}
+.subtitulo-04{
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.titulo-04 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 66px;
+    text-align: center;
+}
+.complemento-04{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    width: 600px;
+}
+footer{
+    background-color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    padding: 8px 0px 8px 0px;
+}
